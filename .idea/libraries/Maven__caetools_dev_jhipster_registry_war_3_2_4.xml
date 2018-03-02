@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: caetools.dev:jhipster-registry:war:3.2.4">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/caetools/dev/jhipster-registry/3.2.4/jhipster-registry-3.2.4.war!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/caetools/dev/jhipster-registry/3.2.4/jhipster-registry-3.2.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/caetools/dev/jhipster-registry/3.2.4/jhipster-registry-3.2.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

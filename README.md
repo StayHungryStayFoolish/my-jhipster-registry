@@ -20,8 +20,11 @@ There are a few limitations when deploying to Heroku.
 ## Running locally
 
 To run the cloned repository;
-* For development run `./mvnw -Pdev,webpack` to just start in development or run `./mvnw` and run `yarn && yarn start` for hot reload of client side code.
-* For production profile run `./mvnw -Pprod`
+*  run `java -jar src/main/resources/jhipster-registry-3.2.4.war`
+
+*  url: `localhost:8761`
+
+* username `admin` password `admin`
 
 [travis-image]: https://travis-ci.org/jhipster/jhipster-registry.svg?branch=master
 [travis-url]: https://travis-ci.org/jhipster/jhipster-registry
