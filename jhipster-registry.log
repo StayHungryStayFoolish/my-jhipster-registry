@@ -1,0 +1,27 @@
+2018-03-03 03:38:47.074  INFO 2786 --- [main] i.g.j.registry.JHipsterRegistryApp       : The following profiles are active: swagger,dev,native
+2018-03-03 03:38:53.384  INFO 2786 --- [main] i.g.j.registry.config.WebConfigurer      : Web application configuration, using profiles: swagger
+2018-03-03 03:38:53.393  INFO 2786 --- [main] i.g.j.registry.config.WebConfigurer      : Web application fully configured
+2018-03-03 03:38:54.310  WARN 2786 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-03-03 03:38:57.338  WARN 2786 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-03-03 03:38:58.490 DEBUG 2786 --- [main] i.g.j.c.apidoc.SwaggerConfiguration      : Starting Swagger
+2018-03-03 03:38:58.498 DEBUG 2786 --- [main] i.g.j.c.apidoc.SwaggerConfiguration      : Started Swagger in 8 ms
+2018-03-03 03:38:59.775  INFO 2786 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-03-03 03:38:59.777  INFO 2786 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2018-03-03 03:38:59.787  INFO 2786 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1520019539787 with initial instances count: 0
+2018-03-03 03:39:00.204  INFO 2786 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-03-03 03:39:00.204  INFO 2786 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-03-03 03:39:00.204  INFO 2786 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-03-03 03:39:00.204  INFO 2786 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-03-03 03:39:01.024  WARN 2786 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with key 'zuulEndpoint' has been registered as an MBean but has no exposed attributes or operations
+2018-03-03 03:39:02.402  INFO 2786 --- [main] i.g.j.registry.JHipsterRegistryApp       : Started JHipsterRegistryApp in 18.657 seconds (JVM running for 19.306)
+2018-03-03 03:39:02.403  INFO 2786 --- [main] i.g.j.registry.JHipsterRegistryApp       : 
+----------------------------------------------------------
+	Application 'jhipster-registry' is running! Access URLs:
+	Local: 		http://localhost:8761
+	External: 	http://192.168.67.222:8761
+	Profile(s): 	[swagger, dev, native]
+----------------------------------------------------------
+2018-03-03 03:39:15.619  WARN 2786 --- [XNIO-2 task-1] o.s.c.n.zuul.web.ZuulHandlerMapping      : No routes found from RouteLocator
+2018-03-03 03:39:55.304  INFO 2786 --- [Thread-15] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-03-03 03:39:55.305  INFO 2786 --- [Thread-15] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2018-03-03 03:39:55.357  WARN 2786 --- [Thread-15] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
